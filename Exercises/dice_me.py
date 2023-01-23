@@ -1,6 +1,8 @@
 import random
 
 def roll_die(sides = 6):
+    if sides == '':
+        sides = 6
     roll = random.randrange(1, int(sides+1))
     return roll
 
@@ -16,13 +18,8 @@ def main():
         results_total += result
 
         print("You rolled a", result)
-        if number_of_rolls == 0:
-            print("Total after first roll:", results_total, "\n")
-        elif number_of_rolls == 1:
-            print("Total after 2 rolls:", results_total, "\n")
-        else:
-            print("Total after 3 rolls:", results_total, "\n")
         number_of_rolls += 1
+        print("Total after ", number_of_rolls, "roll(s) - ", results_total, "\n")
 
     average_roll = results_total/number_of_rolls
 
