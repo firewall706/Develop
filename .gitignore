@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/linkedIn_webscrape.py
+/finance_tracker.py
+/finance_stuff.py
+/developer_profiles.json
+/budget_wheel.py
+/bills.py
+/zillow_webscrape.py
+/postgres_check.py
+/pokemonCompare.py
+/finance_app/app.py
+/.vs/VSWorkspaceState.json
